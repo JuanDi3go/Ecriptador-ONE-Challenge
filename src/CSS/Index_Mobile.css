@@ -1,0 +1,98 @@
+
+:root{
+    --Color-fondo: #F3F5FC;
+    --color-Letra-Mensaje: #0A3871;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--Color-fondo);
+    
+}
+
+header{
+    margin-block-start: 5%;
+    margin-inline-start: 5%;
+}
+
+main{
+    font-size: 1.6rem;
+    width: 90%;
+    margin-block-start: 20%;
+    margin-inline-start: 10%;
+    
+}
+
+.seccionBotones{
+    margin-block-start: 10%; 
+
+}
+.seccionBotones picture span{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.boton{
+    background-color: var(--color-Letra-Mensaje);
+    border: 1px solid var(--color-Letra-Mensaje);
+    padding-block: 5%;
+    padding-inline: 10%;
+    border-radius: 1pc;
+    width: 90%;
+    margin-block:1%;
+    font-size: 1.8rem;
+    
+}
+.btn-ecriptar{
+    color: var(--Color-fondo);
+    font-weight: lighter;
+}
+.btn-desincriptar{
+    background-color: var(--Color-fondo);
+    color: var(--color-Letra-Mensaje);
+}
+
+#Mensaje{
+    font-size: 1.8rem;
+    background-color: var(--Color-fondo);
+    color: var(--color-Letra-Mensaje);  
+    font-weight: bolder;
+}
+
+.ResultadoMensaje{
+    margin-block: 10% ;
+    width: 90%;
+    justify-self: center;
+    background-color: #ffff;
+    padding: 10%;
+    border-radius: 1pc;
+    box-shadow: #000 0 0 10px 0;
+}
+
+.ResultadoMensaje article span{
+
+   display: block;
+   font-weight: bold;
+   font-family: sans-serif;
+   text-align: center;
+   margin-block-end: 5px;
+
+}
