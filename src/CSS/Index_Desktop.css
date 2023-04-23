@@ -1,0 +1,82 @@
+
+main{
+    margin: 0;
+    min-height: 750px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 90% 10%;
+    margin-block-start: 5%;
+}
+header{
+    margin: 3% 0 0 5%;
+}
+
+main article{
+    margin-inline-start: 10%;
+}
+
+#Mensaje{
+    height: 90%;
+}
+
+.ResultadoMensaje{
+    grid-area: 1/2/3/3;
+    margin: 0;
+    padding: 0;
+    
+}
+.ResultadoMensaje article{
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+
+.seccionBotones{
+  
+    align-self: flex-end;
+}
+
+
+.seccionBotones picture{
+    margin-left: 10%;
+}
+.seccionBotones .contenedorBotones{
+    text-align: end;
+}
+
+.boton{
+    margin-inline-end: 5%;
+    width: 40%;
+    padding-inline: 0;
+}
+
+.imageResult{
+    display: inherit;
+    margin-top: 40%;
+}
+
+.ResultadoMensaje article span{
+    font-size: 3rem;
+}
+
+
+.botonResultado{
+    width: 80%;
+    align-self: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.mensajeResponse{
+    overflow-y: scroll;
+}
+/*
+margin-block-start: 10%;
+    text-align: start;
+    margin-inline: 10%;
+    font-size: 2rem;
+    font-weight: 100;
+
+*/
